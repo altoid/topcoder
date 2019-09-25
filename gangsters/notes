@@ -1,0 +1,24 @@
+4 gangster case
+
+1 comes first
+2 always dies
+3 always lives
+4 always dies
+1 dies if 4 is before 3, which is true in half the cases where 1 comes first (i.e. 3 cases)
+
+so for case 1 comes first, there are 3 cases with 1 survivor and 3 cases with 2
+multiply by 4
+
+12 cases with 1 survivor and 12 with 2
+
+--------------------
+6 gangster case
+
+1 comes first - 120 cases
+2 always dies
+3 always lives
+4 always dies
+5 lives if 4 goes after 5, which is true in 60 cases
+6 lives if 5 goes after 6, which is true in 30 of the previous 60 cases
+1 lives if 6 dies, which happens in the other 30 cases
+
